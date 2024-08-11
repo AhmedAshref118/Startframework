@@ -1,0 +1,11 @@
+.novdieo{
+    display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+}
+
+video{
+    max-width: 100%; 
+    height: auto; 
+}

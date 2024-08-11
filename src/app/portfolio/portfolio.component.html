@@ -1,0 +1,124 @@
+
+<div class="container-fluid bgcol text-center justify-content-center">
+
+    <h2 class="fs-1 fw-bolder pt-4  text-uppercase">PORTFOLIO COMPONENT</h2>
+    <div class="stark">
+        <i class="fa-solid fa-star"></i>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row g-4 rounded-4 my-4">
+        <div class="col-md-4  " >
+            <div class="item" (click)="open('../assets/poert1.png')">
+                <img src="../assets/poert1.png" class="w-100 rounded-3" alt="Image Description">
+                <div class="imag-layer">
+                    <div class="nav-img">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+
+
+
+            <div class="col-md-4 " (click)=" open('../assets/port2.png')">
+                <div class="item">
+                    <img src="../assets/port2.png" class="w-100 rounded-3" alt="">
+
+                    <div class="imag-layer">
+                        <div class="nav-img">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+    
+            <div class="col-md-4 " (click)=" open('../assets/port3.png')">
+                <div class="item">
+                    <img src="../assets/port3.png" class="w-100 rounded-3" alt="">
+
+                    <div class="imag-layer">
+                    <div class="nav-img">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+    
+            <div class="col-md-4 " (click)=" open('../assets/poert1.png')">
+                <div class="item ">
+                    <img src="../assets/poert1.png" class="w-100 rounded-3" alt="">
+                    
+                    <div class="imag-layer">
+                    <div class="nav-img">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+    
+    
+            <div class="col-md-4 " (click)=" open('../assets/port2.png')">
+                <div class="item">
+                    <img src="../assets/port2.png" class="w-100 rounded-3" alt="">
+
+                    <div class="imag-layer">
+                    <div class="nav-img">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+    
+    
+            <div class="col-md-4 " (click)=" open('../assets/port3.png')">
+                <div class="item">
+                    <img src="../assets/port3.png" class="w-100 rounded-3" alt="">
+
+                    <div class="imag-layer">
+                    <div class="nav-img">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+        
+        </div>
+
+
+
+        
+    </div>
+
+
+
+
+
+@if (isClicked==true) {
+    <div class="lightbox-container d-flex justify-content-center
+    align-items-center position-fixed start-0 end-0 top-0 bottom-0">
+
+<div class="lightbox-item position-relative d-flex align-items-center justify-content-between mt-4">
+
+    <img [src]="imgSrc" class="w-50 mt-3 mx-auto rounded-3 " alt="">
+
+
+
+    <i class="fa-regular fa-circle-xmark fs-1 text-white" (click)="close()"></i>
+
+</div>
+
+</div>
+}
+
+

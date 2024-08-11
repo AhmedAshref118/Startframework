@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the page takes up at least the full viewport height */
+}
+.content {
+    flex: 1; /* This makes the content area take up all available space */
+}
+footer {
+    background-color: #2C3E50 !important;
+    color: white;
+    padding: 20px 0;}
+
+ .items-icons{
+    font-size: 15px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border-style:solid;
+ }

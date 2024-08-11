@@ -1,0 +1,84 @@
+.lightbox-container{
+    background-color: #35343478;
+}
+
+.stark{
+    text-align: center;
+    position: relative;
+    color: #2c3e50;
+}
+
+
+
+
+.stark::before{
+    
+        content: "";
+        
+        position: absolute;
+        width: 100px;
+        height: 4px; 
+        background-color: #2c3e50; 
+        top: 45%;
+        right: 38%;
+    
+}
+
+
+.stark::after{
+    
+    content: "";
+    
+    position: absolute;
+    width: 100px;
+    height: 4px; 
+    background-color: #2c3e50; 
+    top: 45%;
+    left: 38%;
+
+}
+
+h2{
+    color: #2c3e50; 
+}
+
+.item {
+    position: relative; 
+    overflow: hidden; 
+    border-radius: 0.5rem; 
+}
+
+.imag-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 198, 142, 0.769); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; 
+    transition: opacity 0.6s ease; 
+    border-radius: 0.5rem; 
+}
+
+.item:hover .imag-layer {
+    opacity: 1; 
+}
+
+.nav-img i {
+    color: white;
+    font-weight: 900;
+    font-size: 6rem; 
+}
+
+img {
+    width: 100%; 
+    border-radius: 0.5rem; 
+    display: block; 
+}
+
+
+
+

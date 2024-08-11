@@ -1,0 +1,62 @@
+.bgcol{
+        background-color: rgb(26,188,156);
+        height: 100vh;
+}
+
+
+.stark{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+
+
+
+.stark::before{
+    
+        content: "";
+        
+        position: absolute;
+        width: 100px;
+        height: 4px; 
+        background-color: rgb(255, 255, 255); 
+        top: 45%;
+        right: 38%;
+    
+}
+
+
+.stark::after{
+    
+    content: "";
+    
+    position: absolute;
+    width: 100px;
+    height: 4px; 
+    background-color: rgb(255, 255, 255); 
+    top: 45%;
+    left: 38%;
+
+}
+
+p{
+    margin: 30px;
+    color: white;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
